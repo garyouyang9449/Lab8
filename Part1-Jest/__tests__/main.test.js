@@ -6,7 +6,7 @@ const formatVolumeIconPath = require('../assets/scripts/main');
 
 describe('format volume icon', () => {
     test('is level 3', () => {
-        expect(formatVolumeIconPath(67)).toBe('./assets/media/icons/volume-level-3.svg')
+        expect(formatVolumeIconPath(67)).toBe('./assets/media/icons/volume-level-3.svg');
     });
     
     test('is level 2', () => {
